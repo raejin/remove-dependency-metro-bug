@@ -1,0 +1,16 @@
+{
+  "name": "remove-dependency-metro-bug",
+  "version": "0.0.1",
+  "description": "Demonstrate removeDependency Metro bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "PORT=8888 node ./index.js"
+  },
+  "repository": "git@github.com:raejin/remove-dependency-metro-bug.git",
+  "author": "Rae Liu <rae.liu@airbnb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "metro": "^0.57.0",
+    "metro-config": "^0.57.0"
+  }
+}
